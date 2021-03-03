@@ -1,0 +1,264 @@
+{
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Lifehacker.com"
+            },
+            "author": "Aisha Jordan",
+            "title": "10 Anthology Shows That Explore the Dark Side of Technology",
+            "description": "When we think about the future, we imagine flying cars or holographic computer screens from movies like Minority Report. But we don’t always consider the ramifications of such advances. That’s where shows like Black Mirror and Tales from the Loop come in: the…",
+            "url": "https://lifehacker.com/10-anthology-shows-that-explore-the-dark-side-of-techno-1846377256",
+            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/w9lcth90lfqgmhpm6qla.png",
+            "publishedAt": "2021-03-01T19:15:00Z",
+            "content": "The recent, Jordan Peele-hosted reboot of the iconic 1959 classic, The Twilight Zone brings sci-fi stories about morality to the modern age. A camcorder that can rewind time, but cannot save a young … [+621 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "David Riggs",
+            "title": "Yard Stick provides measurement technology to combat climate change",
+            "description": "Jesse Klein Contributor Jesse Klein is a science, outdoor and business journalist who has written for New Scientist, GreenBiz, The New York Times and WIRED. Having previously worked inside Bay Area startups, she has a deep understanding of the pressing issues…",
+            "url": "http://techcrunch.com/2021/02/17/yard-stick-provides-measurement-technology-to-combat-climate-change/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/02/Yard-Stick.jpg?w=533",
+            "publishedAt": "2021-02-17T18:25:42Z",
+            "content": "The solution to the worlds climate change problems could be under our feet, as soil has the potential to store more than three times the amount of carbon in the atmosphere But about 45% of the Earths… [+5039 chars]"
+        },
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Timothy B. Lee, Ars Technica",
+            "title": "Aurora Partners With Toyota on Self-Driving Sienna Taxis",
+            "description": "The autonomous vehicle startup purchased Uber’s struggling self-driving technology division in December.",
+            "url": "https://www.wired.com/story/aurora-partnership-toyota-self-driving-taxis/",
+            "urlToImage": "https://media.wired.com/photos/60246fd36c104aea63dc519f/191:100/w_1280,c_limit/business_aurora.jpg",
+            "publishedAt": "2021-02-11T14:00:00Z",
+            "content": "Autonomous driving startupAurora announced on Tuesday that it has scored a partnership with Toyota to build self-driving taxis based on the Toyota Sienna minivan. Aurora says it's aiming to have a fl… [+4405 chars]"
+        },
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Julian Chokkattu",
+            "title": "A New Lens Technology Is Primed to Jump-Start Phone Cameras",
+            "description": "The optics in your smartphone have been pretty much the same for more than a decade. That’s about to change.",
+            "url": "https://www.wired.com/story/metalenz-smartphone-lens/",
+            "urlToImage": "https://media.wired.com/photos/601b139dea85aab9fa0490b5/191:100/w_1280,c_limit/Gear-Camera-1208082445.jpg",
+            "publishedAt": "2021-02-04T17:00:00Z",
+            "content": "Phone makers like Apple have increased the number of lens elements over time, and while some, like Samsung, are now folding optics to create periscope lenses for greater zoom capabilities, companies … [+2370 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Jonathan Shieber",
+            "title": "Anuvia raises $103 million to commercialize its novel fertilizer",
+            "description": "Anuvia Plant Nutrients has raised $103 million to commercialize its novel fertilizer technology. The company, backed by investors like TPG ART, Pontifax Global Food and Agriculture Technology Fund, Generate Capital andPiva Capital, is now ready to roll out it…",
+            "url": "http://techcrunch.com/2021/02/23/anuvia-raises-103-million-to-commercialize-its-novel-fertilizer/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2015/05/corn-row.jpg?w=600",
+            "publishedAt": "2021-02-23T13:18:20Z",
+            "content": "Anuvia Plant Nutrients has raised $103 million to commercialize its novel fertilizer technology.\r\nThe company, backed by investors like TPG ART, Pontifax Global Food and Agriculture Technology Fund,G… [+2883 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Jonathan Shieber",
+            "title": "Atlanta area gets a 5G incubator courtesy of T-Mobile and Georgia Tech",
+            "description": "The Atlanta area is getting a new incubator for startups working with 5G technology courtesy of T-Mobile and Georgia Tech’s Advanced Technology Development Center, the companies announced today. It’s an expansion of the T-Mobile Accelerator program and part o…",
+            "url": "http://techcrunch.com/2021/02/17/atlanta-area-gets-a-5g-incubator-courtesy-of-t-mobile-and-georgia-tech/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/10/GettyImages-1196590483.jpeg?w=711",
+            "publishedAt": "2021-02-17T19:03:28Z",
+            "content": "The Atlanta area is getting a new incubator for startups working with 5G technology courtesy of T-Mobile and Georgia Tech’s Advanced Technology Development Center, the companies announced today.\r\nIt’… [+1880 chars]"
+        },
+        {
+            "source": {
+                "id": "mashable",
+                "name": "Mashable"
+            },
+            "author": "Jae Thomas",
+            "title": "This gadget uses NASA-inspired technology to banish bad smells",
+            "description": "TL;DR: Get rid of stinky smells for good with the VentiFresh ECO: Next Generation Odor Eliminator, on sale for $44.99 as of March 1 — a 37% savings.\n\nIf you have a sensitive nose, you likely can't use a room spray or a candle to mask a bad smell: It just make…",
+            "url": "https://mashable.com/shopping/march-1-ventifresh-eco-next-generation-odor-eliminator/",
+            "urlToImage": "https://mondrian.mashable.com/2021%252F03%252F01%252F96%252Fa2369eb94612475d8ce1bebfc5e62ea7.6e04b.jpg%252F1200x630.jpg?signature=WJhX1h3IrEn5yZL8kOklspvQ1Lw=",
+            "publishedAt": "2021-03-01T16:10:01Z",
+            "content": "TL;DR: Get rid of stinky smells for good with the VentiFresh ECO: Next Generation Odor Eliminator, on sale for $44.99 as of March 1 a 37% savings.\r\nIf you have a sensitive nose, you likely can't use … [+1117 chars]"
+        },
+        {
+            "source": {
+                "id": "mashable",
+                "name": "Mashable"
+            },
+            "author": "Joseph Green",
+            "title": "Learn all about Blockchain technology with this £20 course",
+            "description": "TL;DR: The Blockchain Certification Advanced Training Bundle is on sale for £20.60 as of Feb. 25, saving you 96% on list price.\n\nIf you've taken note of any trends in finance, technology, and investing over the past 10 years, you've probably noticed the rise …",
+            "url": "https://mashable.com/uk/shopping/feb-25-blockchain-technology-certification-bundle-on-sale/",
+            "urlToImage": "https://mondrian.mashable.com/2021%252F02%252F25%252F1a%252F21ac42eacdf44c4e85755b1777d199c3.a29fe.jpg%252F1200x630.jpg?signature=v7N1jOZ9sdrislcqSb15IF5ue5o=",
+            "publishedAt": "2021-02-25T05:00:00Z",
+            "content": "TL;DR: The Blockchain Certification Advanced Training Bundle is on sale for £20.60 as of Feb. 25, saving you 96% on list price.\r\nIf you've taken note of any trends in finance, technology, and investi… [+4328 chars]"
+        },
+        {
+            "source": {
+                "id": "mashable",
+                "name": "Mashable"
+            },
+            "author": "Joseph Green",
+            "title": "This half-price electric toothbrush makes use of magnetic technology",
+            "description": "SAVE OVER £200: The Oral-B Special Edition iO 8 electric toothbrush is on sale for £224.99 on Amazon, saving you 50% on list price.\n\nWhy is it that you can never replicate the professional clean feeling you get from the dentist? The fact is that electric toot…",
+            "url": "https://mashable.com/uk/shopping/feb-18-oral-b-electric-toothbrush-io-deal/",
+            "urlToImage": "https://mondrian.mashable.com/2021%252F02%252F18%252F64%252Fca57b7ea988d4a749cd178c8fb183878.cad9d.png%252F1200x630.png?signature=Kyl67sLv1qQogUU_Gt76YQLqyyc=",
+            "publishedAt": "2021-02-18T05:15:00Z",
+            "content": "SAVE OVER £200: The Oral-B Special Edition iO 8 electric toothbrush is on sale for £224.99 on Amazon, saving you 50% on list price.\r\nWhy is it that you can never replicate the professional clean feel… [+1138 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Alex Wilhelm",
+            "title": "Coupang files for mega US IPO",
+            "description": "Coupang's offering, coming amidst the public debut of a number of well-known technology brands, will be a massive affair.",
+            "url": "http://techcrunch.com/2021/02/12/coupang-files-for-mega-us-ipo/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/02/GettyImages-1215460159.jpg?w=534",
+            "publishedAt": "2021-02-12T19:36:02Z",
+            "content": "Earlier today, South Korean e-commerce and delivery giant Coupang filed to go public in the United States. As a private company, Coupang has raised billions, including capital from American venture c… [+1630 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Jessica Brunner",
+            "title": "4 strategies for deep tech founders who are fundraising",
+            "description": "Fundraising is challenging, especially for deep tech founders who need to get investors excited about a complex technology, a complex sales cycle and a complex risk profile.",
+            "url": "http://techcrunch.com/2021/02/04/4-strategies-for-deep-tech-founders-who-are-fundraising/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/02/GettyImages-665047728.jpg?w=600",
+            "publishedAt": "2021-02-04T18:48:57Z",
+            "content": "More posts by this contributor\r\nFundraising is challenging, especially for deep tech founders who need to get investors excited about a complex technology, a complex sales cycle and a complex risk pr… [+2653 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Tim Hepher",
+            "title": "Airbus exploring hybrid-electric aircraft technology - Reuters",
+            "description": "Airbus is working on hybrid-electric propulsion among the options for reducing jetliner emissions, the European planemaker said on Friday.",
+            "url": "https://www.reuters.com/article/airbus-carbon-hybrid-idUSL1N2KW0RQ",
+            "urlToImage": "https://s1.reutersmedia.net/resources_v2/images/rcom-default.png?w=800",
+            "publishedAt": "2021-02-26T09:47:00Z",
+            "content": "PARIS, Feb 26 (Reuters) - Airbus is working on hybrid-electric propulsion among the options for reducing jetliner emissions, the European planemaker said on Friday.\r\nIt disclosed the initiative in a … [+2015 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": null,
+            "title": "The surprising friend to the world's rarest marine dolphins",
+            "description": "There are only about 63 adult Maui dolphins left on earth. This new technology aims to help protect them from some of their biggest threats.",
+            "url": "https://www.cnn.com/videos/travel/2021/02/26/maui-dolphins-worlds-rarest-safety-drone-orig-kj.cnn",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/210226165144-maui-dolphins-orig-thumbnail-super-tease.jpg",
+            "publishedAt": "2021-02-26T22:21:34Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Jordan Valinsky, CNN Business",
+            "title": "Dominion sues MyPillow and its CEO Mike Lindell for $1.3 billion",
+            "description": "Dominion Voting Systems, the election technology company that has been the focus of debunked conspiracy theories about election fraud, is suing MyPillow and its CEO Mike Lindell.",
+            "url": "https://www.cnn.com/2021/02/22/business/dominion-voting-systems-sues-mypillow-ceo/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/210207115734-mike-lindell-0115-super-tease.jpg",
+            "publishedAt": "2021-02-22T14:07:36Z",
+            "content": "New York (CNN Business)Dominion Voting Systems, the election technology company that has been the focus of debunked conspiracy theories about election fraud, is suing MyPillow and its CEO Mike Lindel… [+2559 chars]"
+        },
+        {
+            "source": {
+                "id": "ars-technica",
+                "name": "Ars Technica"
+            },
+            "author": "Kate Cox",
+            "title": "Amid scandal, Pornhub hires “biometric technology” firm for user verification",
+            "description": "Ideally, the arrangement would both confirm consent and keep performer data private.",
+            "url": "https://arstechnica.com/tech-policy/2021/02/amid-scandal-pornhub-hires-biometric-technology-firm-for-user-verification/",
+            "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2020/12/getty-pornhub-760x380.jpg",
+            "publishedAt": "2021-02-03T21:46:04Z",
+            "content": "Enlarge/ A Pornhub logo at the company's booth during the 2018 AVN Adult Expo on January 25, 2018, in Las Vegas, Nevada.\r\n5 with 4 posters participating\r\nAdult website Pornhub this week announced a s… [+3791 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "Johnny Diaz, Patricia Mazzei and Nicholas Bogel-Burroughs",
+            "title": "Suspect in Killing of 2 Florida F.B.I. Agents Is Identified",
+            "description": "As cases of online child sexual abuse explode, the F.B.I. is investigating the case of a Florida technology contractor who they said shot two agents serving a search warrant at his apartment.",
+            "url": "https://www.nytimes.com/2021/02/03/us/fbi-shooting-florida-david-lee-huber.html",
+            "urlToImage": "https://static01.nyt.com/images/2021/02/03/us/03fbi-shooting/merlin_183189831_d88074df-aa43-4d75-a99c-3bedd0979c03-facebookJumbo.jpg",
+            "publishedAt": "2021-02-03T21:54:19Z",
+            "content": "He indicated at the time that he was living at the Water Terrace apartments, the sprawling Sunrise complex where the shooting took place. Mr. Hubers ex-wife said in the court filings that the couple … [+1647 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": null,
+            "title": "The $2.7 Billion Case Against Fox News",
+            "description": "Smartmatic, an election technology company, filed a billion-dollar lawsuit against the network over what the company says are false claims about its role in the 2020 election. We hear from Smartmatic’s C.E.O. and lawyer.",
+            "url": "https://www.nytimes.com/2021/02/05/podcasts/the-daily/smartmatic-fox-news.html",
+            "urlToImage": "https://static01.nyt.com/images/2021/02/05/world/05daily-1sub/05daily-1sub-facebookJumbo.jpg",
+            "publishedAt": "2021-02-05T11:13:25Z",
+            "content": "<ul><li>In the latest volley in the dispute over disinformation in the presidential election, Rupert Murdochs Fox Corporation has been sued by Smartmatic, which accuses his cable networks of defamati… [+1556 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "Michael M. Grynbaum",
+            "title": "Fox Business Cancels Lou Dobbs Tonight",
+            "description": "Mr. Dobbs, a loyal supporter of former President Donald J. Trump, is named in a lawsuit by the election technology company Smartmatic against the Fox Corporation and two other Fox anchors.",
+            "url": "https://www.nytimes.com/2021/02/05/business/lou-dobbs-fox.html",
+            "urlToImage": "https://static01.nyt.com/images/2021/02/05/business/05dobbs/05dobbs-facebookJumbo.jpg",
+            "publishedAt": "2021-02-06T00:01:12Z",
+            "content": "Fox Business has canceled Lou Dobbs Tonight, the weekday show hosted by one of former President Donald J. Trumps most loyal media supporters that became a frequent clearinghouse for baseless theories… [+1038 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Ingrid Lunden",
+            "title": "Granulate nabs $30M for software to optimize workloads and latency",
+            "description": "Services like video streaming, gaming, media-intensive advertising and marketing technology are putting more strain on bandwidth and backend latency than ever before due to the surge of online traffic in the last year. But for most organizations in today’s us…",
+            "url": "http://techcrunch.com/2021/02/03/granulate-nabs-30m-for-software-to-optimize-workloads-and-latency/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/05/GettyImages-135205598-1.jpg?w=600",
+            "publishedAt": "2021-02-03T14:35:41Z",
+            "content": "Services like video streaming, gaming, media-intensive advertising and marketing technology are putting more strain on bandwidth and backend latency than ever before due to the surge of online traffi… [+4247 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Mary Ann Azevedo",
+            "title": "Proptech startup Knock secures $20M to grow SaaS platform for property managers",
+            "description": "In recent years, the U.S. has seen more renters than at any point since at least 1965, according to a Pew Research Center analysis of Census Bureau housing data.  Competition for renters is fierce and property managers are turning to technology to get a leg u…",
+            "url": "http://techcrunch.com/2021/02/18/proptech-startup-knock-raises-20m-to-grow-saas-platform-for-property-managers/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/12/GettyImages-497314079.jpg?w=600",
+            "publishedAt": "2021-02-18T14:00:17Z",
+            "content": "In recent years, the U.S. has seen more renters than at any point since at least 1965, according to a Pew Research Center analysis of Census Bureau housing data. \r\nCompetition for renters is fierce a… [+4650 chars]"
+        }
+    ]
+}

@@ -1,8 +1,7 @@
-import axios from 'axios';
+import Axios from 'axios';
 
 import React, { useEffect, useState } from 'react';
 import { List, Spin } from 'antd';
-import { Link } from "react-router-dom"
 import { NewsCard } from "./NewsCard";
 
 interface INewsList {
@@ -26,15 +25,17 @@ const NewsList = () => {
     const [loading, setLoading] = useState<boolean>(true);
 
     const fetchNews = async () => {
-        const { data } = await axios.get('https://newsapi.org/v2/everything?q=technology&apiKey=edbb84a97bec4665907e48275e71360f')
-        return data;
+        /* const proxyUrl = "https://cors-anywhere.herokuapp.com/"
+        const { data } = await Axios.get(`${proxyUrl}https://newsapi.org/v2/everything?q=technology&apiKey=edbb84a97bec4665907e48275e71360f`) */
+
+        // Mock JSON
+        const { data } = await Axios.get(`http://localhost:3001/articles`)
+        setNews(data);
+        setLoading(false)
     }
 
     useEffect(() => {
-        fetchNews().then(data => {
-            setNews(data)
-            setLoading(false)
-        });
+        fetchNews()
     }, [])
 
     return (
@@ -52,7 +53,7 @@ const NewsList = () => {
                     dataSource={news}
                     renderItem={(item: INewsAPI) => (
                         <List.Item>
-                            <Link to={item.url}>
+                            <a href={item.url}>
                                 <NewsCard urlToImage={item.urlToImage}
                                     id={item.id}
                                     url={item.url}
@@ -63,7 +64,7 @@ const NewsList = () => {
                                     publishedAt={item.publishedAt}
                                     description={item.description}
                                 />
-                            </Link>
+                            </a>
                         </List.Item>
                     )}
                 />
