@@ -1,4 +1,4 @@
-import { Layout, Menu, Breadcrumb } from 'antd';
+import { Layout, Menu, Breadcrumb, Dropdown, message } from 'antd';
 import {
     DesktopOutlined,
     PieChartOutlined,
@@ -6,8 +6,8 @@ import {
     TeamOutlined,
     UserOutlined,
 } from '@ant-design/icons';
-import NewsList from './NewsList';
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { DownOutlined } from '@ant-design/icons';
 
 const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
@@ -54,7 +54,6 @@ const Navbar = () => {
                         <Breadcrumb.Item>Bill</Breadcrumb.Item>
                     </Breadcrumb>
                     <div className="site-layout-background" style={{ padding: 24, minHeight: 260 }}>
-                        <NewsList />
                     </div>
                 </Content>
                 <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>

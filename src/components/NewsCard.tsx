@@ -1,6 +1,5 @@
-import { Avatar, Card } from 'antd';
-import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
-import React from 'react';
+import { Card } from 'antd';
+import { ReadFilled } from '@ant-design/icons';
 import { INewsAPI } from './NewsList';
 
 export const NewsCard = (props: INewsAPI) => {
@@ -15,9 +14,8 @@ export const NewsCard = (props: INewsAPI) => {
                 />
             }
             actions={[
-                <SettingOutlined key="setting" />,
-                <EditOutlined key="edit" />,
-                <EllipsisOutlined key="ellipsis" />,
+                'Read Online',
+                <ReadFilled key="Read" />,
             ]}
         >
             <Meta
