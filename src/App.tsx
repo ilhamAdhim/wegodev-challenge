@@ -6,11 +6,15 @@ import { Layout } from 'antd';
 
 import { Content } from 'antd/lib/layout/layout';
 import Sidebar from './components/Sidebar';
+import { ContextValue, NewsContext, NewsProvider } from './contexts/NewsContext';
+import { useContext, useEffect } from 'react';
 
 function App() {
 
+    const { currentCategory, getCurrentCategory } = useContext<ContextValue>(NewsContext);
+
     return (
-        <>
+        <NewsProvider>
             <Layout style={{ padding: '0' }}>
                 <Sidebar />
                 <Content
@@ -19,12 +23,10 @@ function App() {
                         padding: 24,
                         margin: 0,
                     }}>
-                    <h1> Technology News </h1>
-
                     <NewsList />
                 </Content>
             </Layout>
-        </>
+        </NewsProvider>
     );
 }
 

@@ -1,31 +1,34 @@
 import Axios from 'axios';
 
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { Col, List, Row, Skeleton } from 'antd';
 import { NewsCard } from "./NewsCard";
+import { ContextValue, NewsContext } from '../contexts/NewsContext';
 
 export interface INewsAPI {
-    id: string | undefined;
-    title: string | undefined;
-    author: string | undefined;
-    description: string | undefined;
-    url: string;
-    urlToImage: string | undefined;
-    publishedAt: string | undefined;
-    content: string | undefined;
+    id?: string;
+    title?: string;
+    author?: string;
+    description?: string;
+    url?: string;
+    urlToImage?: string;
+    publishedAt?: string;
+    content?: string;
 }
 
-const NewsList = () => {
-
+const NewsList = (props: any) => {
+    // TODO, add category and news context
     const [news, setNews] = useState<INewsAPI[]>();
     const [loading, setLoading] = useState<boolean>(true);
+
+    const { newsList, currentCategory } = useContext<ContextValue>(NewsContext);
+
 
     const fetchNews = async () => {
         // const { data } = await Axios.get(`https://newsapi.org/v2/everything?q=technology&apiKey=edbb84a97bec4665907e48275e71360f`)
 
         // Mock JSON local server
         const { data } = await Axios.get(`http://localhost:3001/articles`)
-        console.log(data)
         setNews(data);
 
         // Mock fetching data from JSON local server
@@ -41,6 +44,8 @@ const NewsList = () => {
     return (
         !loading ?
             <Row justify='center'>
+                <h1> {currentCategory} News </h1>
+
                 {news?.map((item) =>
                     <Col key={item.id} style={{ marginBottom: '2em' }}>
                         <NewsCard

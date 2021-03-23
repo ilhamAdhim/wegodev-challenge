@@ -1,7 +1,8 @@
-import { CSSProperties, useState } from 'react';
+import { CSSProperties, useContext, useState } from 'react';
 import { Button, Drawer } from 'antd';
 import { MenuOutlined, CodeTwoTone, SmileTwoTone, UsbTwoTone, LaptopOutlined, HeartTwoTone, BulbTwoTone } from '@ant-design/icons';
 import Category from './Category';
+
 
 const Sidebar = () => {
     const [visible, setVisible] = useState(false);
@@ -16,6 +17,8 @@ const Sidebar = () => {
         position: 'fixed',
         zIndex: 1,
     }
+
+
 
     return (
         <>
@@ -34,7 +37,7 @@ const Sidebar = () => {
                 <Category name="Health" icon={<HeartTwoTone twoToneColor="#eb2f96" />} />
                 <Category name="Sciences" icon={<BulbTwoTone twoToneColor="#e6b710" />} />
                 <Category name="Ports" icon={<UsbTwoTone />} />
-                <Category name="Technology" status="selected" icon={<CodeTwoTone twoToneColor="#157d1a" />} />
+                <Category name="Technology" icon={<CodeTwoTone twoToneColor="#157d1a" />} />
             </Drawer>
         </>
     );
