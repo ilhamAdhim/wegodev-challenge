@@ -1,42 +1,43 @@
-import { Affix, Button, Drawer } from 'antd';
-import React, { useState, CSSProperties } from 'react';
+import { CSSProperties, useState } from 'react';
+import { Button, Drawer } from 'antd';
+import { MenuOutlined, CodeTwoTone, SmileTwoTone, UsbTwoTone, LaptopOutlined, HeartTwoTone, BulbTwoTone } from '@ant-design/icons';
+import Category from './Category';
 
 const Sidebar = () => {
     const [visible, setVisible] = useState(false);
 
-    const showDrawer = () => {
-        setVisible(true);
-    };
+    const showDrawer = () => setVisible(true)
 
-    const onClose = () => {
-        setVisible(false);
-    };
+    const onClose = () => setVisible(false)
 
     const buttonStyle: CSSProperties = {
-        position: 'absolute',
         bottom: '5%',
-        right: '20%'
+        right: '10%',
+        position: 'fixed',
+        zIndex: 1,
     }
 
     return (
         <>
-            <Button type="primary" onClick={showDrawer}>
-                Affix bottom
+            <Button type="primary" shape="circle" size="large" style={buttonStyle} onClick={showDrawer}>
+                <MenuOutlined key="Read" />
             </Button>
             <Drawer
-                title="Basic Drawer"
+                title="Select News Category"
                 placement="left"
                 closable={true}
                 onClose={onClose}
                 visible={visible}
             >
-                <p>Some contents...</p>
-                <p>Some contents...</p>
-                <p>Some contents...</p>
+                <Category name="Business" icon={<LaptopOutlined />} />
+                <Category name="Entertainment" icon={<SmileTwoTone twoToneColor="#e6b209" />} />
+                <Category name="Health" icon={<HeartTwoTone twoToneColor="#eb2f96" />} />
+                <Category name="Sciences" icon={<BulbTwoTone twoToneColor="#e6b710" />} />
+                <Category name="Ports" icon={<UsbTwoTone />} />
+                <Category name="Technology" status="selected" icon={<CodeTwoTone twoToneColor="#157d1a" />} />
             </Drawer>
         </>
     );
 };
-
 
 export default Sidebar;
