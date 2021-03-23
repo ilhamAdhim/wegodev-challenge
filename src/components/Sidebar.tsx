@@ -1,4 +1,4 @@
-import { CSSProperties, useContext, useState } from 'react';
+import { CSSProperties, useState } from 'react';
 import { Button, Drawer } from 'antd';
 import { MenuOutlined, CodeTwoTone, SmileTwoTone, UsbTwoTone, LaptopOutlined, HeartTwoTone, BulbTwoTone } from '@ant-design/icons';
 import Category from './Category';
@@ -16,13 +16,13 @@ const Sidebar = () => {
         right: '10%',
         position: 'fixed',
         zIndex: 1,
+        backgroundColor: '#002766',
+        color: 'white'
     }
-
-
 
     return (
         <>
-            <Button type="primary" shape="circle" size="large" style={buttonStyle} onClick={showDrawer}>
+            <Button shape="circle" size="large" style={buttonStyle} onClick={showDrawer}>
                 <MenuOutlined key="Read" />
             </Button>
             <Drawer

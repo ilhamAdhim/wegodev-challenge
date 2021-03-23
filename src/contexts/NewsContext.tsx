@@ -1,6 +1,7 @@
 import React, { createContext, useEffect, useState } from 'react';
 import { INewsAPI } from '../components/NewsList';
 
+// ? Type declaration
 interface IProps {
     children: React.ReactNode,
 }
@@ -12,6 +13,7 @@ export interface ContextValue {
     getCurrentCategory: (c: string) => void
 }
 
+// ? The context itself, this will be used to get and manipulate global state through Context
 export const NewsContext = createContext<ContextValue>({
     currentCategory: "",
     getCurrentCategory: () => { },
@@ -19,6 +21,7 @@ export const NewsContext = createContext<ContextValue>({
     getNewsList: () => { }
 });
 
+// ? This will be rendered instead of usual ContextProvider. 
 export const NewsProvider = (props: IProps) => {
 
     const [newsList, setNewsList] = useState<INewsAPI[]>([])
@@ -28,7 +31,6 @@ export const NewsProvider = (props: IProps) => {
     // ? Default category is set to technology
     const [currentCategory, setCurrentCategory] = useState<string>('Technology')
     const getCurrentCategory = (c: string) => setCurrentCategory(c);
-
 
     const contextValue: ContextValue = { currentCategory, getCurrentCategory, newsList, getNewsList }
 

@@ -6,12 +6,9 @@ import { Layout } from 'antd';
 
 import { Content } from 'antd/lib/layout/layout';
 import Sidebar from './components/Sidebar';
-import { ContextValue, NewsContext, NewsProvider } from './contexts/NewsContext';
-import { useContext, useEffect } from 'react';
+import { NewsProvider } from './contexts/NewsContext';
 
-function App() {
-
-    const { currentCategory, getCurrentCategory } = useContext<ContextValue>(NewsContext);
+const App = () => {
 
     return (
         <NewsProvider>

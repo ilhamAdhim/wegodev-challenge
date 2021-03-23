@@ -1,12 +1,14 @@
 import Axios from 'axios';
 
 import { useContext, useEffect, useState } from 'react';
-import { Col, List, Row, Skeleton } from 'antd';
+import { Col, Row, Skeleton } from 'antd';
 import { NewsCard } from "./NewsCard";
 import { ContextValue, NewsContext } from '../contexts/NewsContext';
+import { render } from '@testing-library/react';
+import Error from '../pages/Error';
 
 export interface INewsAPI {
-    id?: string;
+    id?: number,
     title?: string;
     author?: string;
     description?: string;
@@ -17,58 +19,75 @@ export interface INewsAPI {
 }
 
 const NewsList = (props: any) => {
-    // TODO, add category and news context
-    const [news, setNews] = useState<INewsAPI[]>();
     const [loading, setLoading] = useState<boolean>(true);
+    const [error, setError] = useState<boolean>(false);
 
-    const { newsList, currentCategory } = useContext<ContextValue>(NewsContext);
 
+    // ? Get news list, category, and news context updater from NewsContext
+    const { newsList, currentCategory, getNewsList } = useContext<ContextValue>(NewsContext);
 
     const fetchNews = async () => {
-        // const { data } = await Axios.get(`https://newsapi.org/v2/everything?q=technology&apiKey=edbb84a97bec4665907e48275e71360f`)
+        setLoading(true)
 
-        // Mock JSON local server
-        const { data } = await Axios.get(`http://localhost:3001/articles`)
-        setNews(data);
+        try {
+            const newsResponse = await Axios.get(`https://newsapi.org/v2/everything?q=${currentCategory}&apiKey=edbb84a97bec4665907e48275e71360f`)
 
-        // Mock fetching data from JSON local server
-        setTimeout(() => {
+            // ? Add id for each fetched news, since it doesn't comes in JSON Response
+            let id = 0
+            newsResponse.data.articles.forEach((newsData: INewsAPI) => {
+                newsData.id = id++
+            });
+
+            getNewsList(newsResponse.data.articles);
             setLoading(false)
-        }, 1000)
+        } catch (error) {
+            const { response } = error;
+            const { request, ...errorObject } = response; // take everything but 'request'
+            console.log(errorObject);
+
+            setError(true)
+        }
+
+
+
     }
 
+    // ? Fetch news updated with updated category, and always scroll to top when currentCategory is updated
     useEffect(() => {
         fetchNews()
-    }, [])
+        window.scrollTo(0, 0);
+    }, [currentCategory])
+
 
     return (
-        !loading ?
+        <>
             <Row justify='center'>
                 <h1> {currentCategory} News </h1>
-
-                {news?.map((item) =>
-                    <Col key={item.id} style={{ marginBottom: '2em' }}>
-                        <NewsCard
-                            id={item.id}
-                            key={item.id}
-                            url={item.url}
-                            title={item.title}
-                            author={item.author}
-                            content={item.content}
-                            urlToImage={item.urlToImage}
-                            publishedAt={item.publishedAt}
-                            description={item.description}
-                        />
-                    </Col>
-                )}
             </Row>
-            :
-            <>
-                <Skeleton active avatar paragraph={{ rows: 3 }} />
-                <Skeleton active avatar paragraph={{ rows: 3 }} />
-                <Skeleton active avatar paragraph={{ rows: 3 }} />
-                <Skeleton active avatar paragraph={{ rows: 3 }} />
-            </>
+            {!loading ?
+                <Row justify='center'>
+                    <br />
+                    {newsList?.map((item) =>
+                        <Col key={item.id} style={{ marginBottom: '2em' }}>
+                            <NewsCard key={item.id}
+                                {...item}
+                            />
+                        </Col>
+                    )}
+                </Row>
+                :
+
+                !error ?
+                    <>
+                        <Skeleton active avatar paragraph={{ rows: 3 }} />
+                        <Skeleton active avatar paragraph={{ rows: 3 }} />
+                        <Skeleton active avatar paragraph={{ rows: 3 }} />
+                        <Skeleton active avatar paragraph={{ rows: 3 }} />
+                    </>
+                    :
+                    <Error />
+            }
+        </>
 
 
     );
