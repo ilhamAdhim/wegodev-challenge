@@ -1,46 +1,63 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1> Wegodev Challenge - News Aggregator  </h1>
 
-## Available Scripts
+*Created by IlhamAdhim* <br> <br>
+Tech stacks: 
+- React Hooks with Typescript
+- Undraw.co for illustration
+- Ant Design UI Library & Icons
+- React Context for state management
+- News API as 3rd party data provider
 
-In the project directory, you can run:
+--------
 
-### `yarn start`
+## Screenshots
+<p> 
+    When user opens up the website in their mobile phone.
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Landing page](./public/imagesMD/landingPage.png "When user opens up the website in their mobile phone.")
+<br> <br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p> 
+    When user opens up the website in their mobile phone with horizontal view.
+</p>
 
-### `yarn test`
+![Landing page](./public/imagesMD/horizontalView.png "When user opens up the website in their mobile phone.")
+<br> <br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p> 
+    User can select other news category in sidebar. The default category is 'Technology'
+</p>
 
-### `yarn build`
+![Sidebar](./public/imagesMD/sidebar.png "Logo Title Text 1")
+<br> <br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p> 
+    Source of the original news is available in Dropdown 'see source'
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Source displayed in dropdowns](./public/imagesMD/seeSource.png "Logo Title Text 1")
+<br> <br>
 
-### `yarn eject`
+<p> 
+    If user clicks 'Read more' at the bottom of each card news, it redirects them to the original news 
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Details Each News](./public/imagesMD/detailsEachNews.png "Logo Title Text 1")
+<br> <br>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p> 
+   Loading data from NewsAPI will gives this UI in user's phone
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Loading state](./public/imagesMD/loadingState.png "Logo Title Text 1")
+<br> <br>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+<p> 
+    If the fetching data process from NewsAPI returns error, it will display this page
+</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Fail fetch state from NewsAPI](./public/imagesMD/fetchFail.png "Logo Title Text 1")
