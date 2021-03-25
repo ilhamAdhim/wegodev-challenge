@@ -29,7 +29,7 @@ export const NewsProvider = (props: IProps) => {
     const getNewsList = (news: INewsAPI[]) => setNewsList(news);
 
     // ? Default category is set to technology
-    const [currentCategory, setCurrentCategory] = useState<string>('technology')
+    const [currentCategory, setCurrentCategory] = useState<string>('Technology')
     const getCurrentCategory = (c: string) => setCurrentCategory(c);
 
     const contextValue: ContextValue = { currentCategory, getCurrentCategory, newsList, getNewsList }
