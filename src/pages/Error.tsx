@@ -1,6 +1,5 @@
-import Text from 'antd/lib/typography/Text';
 import React, { CSSProperties } from 'react';
-import ErrorImage from './error_assets.png';
+import ErrorSVG from './error_assets.svg';
 
 const Error: React.FunctionComponent = () => {
     const textStyle: CSSProperties = {
@@ -9,7 +8,7 @@ const Error: React.FunctionComponent = () => {
 
     return (
         <div style={{ height: '86vh' }}>
-            <img src={ErrorImage} alt="" width="100%" />
+            <img src={ErrorSVG} alt="" width="100%" style={{ marginTop: '2em' }} />
 
             <p style={textStyle}> 404 <br /> News cannot be fetched </p>
         </div >
